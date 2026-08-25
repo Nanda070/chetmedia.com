@@ -48,12 +48,6 @@
 | Сообщество | [threads](https://chetmedia.com/threads) · [community](https://chetmedia.com/community) · [authors](https://chetmedia.com/authors) |
 | Сервис · Правовое | [status](https://chetmedia.com/status) · [terms](https://chetmedia.com/legal/terms) · [privacy](https://chetmedia.com/legal/privacy) · [DMCA](https://chetmedia.com/legal/dmca) |
 
-## Инфраструктура
-
-Монорепозиторий содержит Next.js веб-приложение, AniLibria bridge и необязательный Hanime bridge. Production использует SQLite, systemd, nginx и Cloudflare; публичны только HTTP/HTTPS, внутренние bridge-сервисы доступны только через loopback.
-
-Подробный production-гайд — [`deploy/oracle/README.md`](deploy/oracle/README.md).
-
 ## Сообщество и возраст
 
 Общение, новости и поддержка: [discord.gg/cheterin](https://discord.gg/cheterin). Сервис рассчитан на пользователей от 16 лет или возраста цифровой дееспособности в их стране; правила 18+ описаны в [условиях](https://chetmedia.com/legal/terms).
