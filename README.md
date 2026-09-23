@@ -9,7 +9,7 @@
 **ChetMedia** объединяет каталог аниме, просмотр, личный кабинет и совместный просмотр. Большая часть каталога и плеера доступна без регистрации; аккаунт добавляет синхронизацию прогресса, списки, социальные функции и уведомления.
 
 > **Сайт:** [https://chetmedia.com](https://chetmedia.com)  
-> **Это репозиторий:** публичные **APK / Releases** и project info. Полный исходный код живёт в **private** monorepo `Nanda070/Cheterin-Media` и сюда не зеркалится.
+> **Это репозиторий:** публичные **APK / Releases**, release notes и project info для ChetMedia.
 
 > **Статус Shorts:** раздел, API, админ-инструменты и генерация Shorts сейчас отключены. Старые записи удалены из production SQLite.
 
@@ -66,14 +66,9 @@
 | Сервис · Правовое | [status](https://chetmedia.com/status) · [terms](https://chetmedia.com/legal/terms) · [privacy](https://chetmedia.com/legal/privacy) · [DMCA](https://chetmedia.com/legal/dmca) |
 | APK Releases | [github.com/Nanda070/chetmedia.com/releases](https://github.com/Nanda070/chetmedia.com/releases) |
 
-## Исходники и dual-repo
+## Вопросы и поддержка
 
-| Репозиторий | Visibility | Что внутри |
-| --- | --- | --- |
-| [`Nanda070/Cheterin-Media`](https://github.com/Nanda070/Cheterin-Media) | **private** | Полный исходный код сайта / backend |
-| [`Nanda070/chetmedia.com`](https://github.com/Nanda070/chetmedia.com) | **public** | APK Releases, release notes, этот README / project info |
-
-Вопросы и баги по продукту — в [Discord Cheterin Group](https://discord.gg/cheterin). Pull requests в это зеркало не принимаются (здесь нет полного исходника).
+Вопросы и баги по продукту — в [Discord Cheterin Group](https://discord.gg/cheterin).
 
 ## Сообщество и возраст
 
