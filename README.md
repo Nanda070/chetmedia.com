@@ -4,11 +4,28 @@
 
 [![Сайт](https://img.shields.io/badge/сайт-chetmedia.com-e11d48?style=for-the-badge)](https://chetmedia.com)
 [![Discord](https://img.shields.io/badge/Discord-Cheterin%20Group-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/cheterin)
-[![Next.js](https://img.shields.io/badge/Next.js-16-black?style=for-the-badge&logo=next.js)](https://nextjs.org/)
+[![Releases](https://img.shields.io/badge/APK-Releases-111827?style=for-the-badge&logo=android&logoColor=white)](https://github.com/Nanda070/chetmedia.com/releases)
 
 **ChetMedia** объединяет каталог аниме, просмотр, личный кабинет и совместный просмотр. Большая часть каталога и плеера доступна без регистрации; аккаунт добавляет синхронизацию прогресса, списки, социальные функции и уведомления.
 
+> **Сайт:** [https://chetmedia.com](https://chetmedia.com)  
+> **Это репозиторий:** публичные **APK / Releases** и project info. Полный исходный код живёт в **private** monorepo `Nanda070/Cheterin-Media` и сюда не зеркалится.
+
 > **Статус Shorts:** раздел, API, админ-инструменты и генерация Shorts сейчас отключены. Старые записи удалены из production SQLite.
+
+## Android APK / TV (sideload)
+
+Публичные сборки оболочки (телефон / планшет / Android TV) публикуются в **[Releases](https://github.com/Nanda070/chetmedia.com/releases)** этого репозитория.
+
+| | |
+| --- | --- |
+| Скачать | [Latest Release](https://github.com/Nanda070/chetmedia.com/releases/latest) → файл `.apk` |
+| Статус | APK shell в разработке — пока релизов может не быть; placeholder готов |
+| Установка | Sideload: разрешить «установку из этого источника» / unknown sources; на TV при необходимости ADB |
+| Auto-update | Планируется: shell проверит версию → скачает с Releases → предложит установить; ручной путь через Releases тоже ок |
+| Что внутри | Тонкий WebView/shell поверх сайта ChetMedia — не отдельный native rewrite |
+
+**Disclaimer:** sideload вне магазинов — на ваш риск и по правилам вашей платформы. В репозитории нет секретов, keystore и `.env`.
 
 ## Возможности
 
@@ -47,6 +64,16 @@
 | Профиль · Списки · Комнаты | [settings](https://chetmedia.com/settings) · [list](https://chetmedia.com/list) · [room/join](https://chetmedia.com/room/join) |
 | Сообщество | [threads](https://chetmedia.com/threads) · [community](https://chetmedia.com/community) · [authors](https://chetmedia.com/authors) |
 | Сервис · Правовое | [status](https://chetmedia.com/status) · [terms](https://chetmedia.com/legal/terms) · [privacy](https://chetmedia.com/legal/privacy) · [DMCA](https://chetmedia.com/legal/dmca) |
+| APK Releases | [github.com/Nanda070/chetmedia.com/releases](https://github.com/Nanda070/chetmedia.com/releases) |
+
+## Исходники и dual-repo
+
+| Репозиторий | Visibility | Что внутри |
+| --- | --- | --- |
+| [`Nanda070/Cheterin-Media`](https://github.com/Nanda070/Cheterin-Media) | **private** | Полный исходный код сайта / backend |
+| [`Nanda070/chetmedia.com`](https://github.com/Nanda070/chetmedia.com) | **public** | APK Releases, release notes, этот README / project info |
+
+Вопросы и баги по продукту — в [Discord Cheterin Group](https://discord.gg/cheterin). Pull requests в это зеркало не принимаются (здесь нет полного исходника).
 
 ## Сообщество и возраст
 
